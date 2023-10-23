@@ -1,0 +1,384 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Louis Paquin</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div> 
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Louis Paquin</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            
+            </div>
+    
+        </nav>
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="./Assets/profile-pic.png" alt="Louis Paquin Profile picture">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title">Louis Paquin</h1>
+                <p class="section_text_p2"> Learning Front End Develpment</p>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2" 
+                    onclick="window.open('./assets/resume-example.pdf')"
+                    >
+                    Download CV
+                    </button>
+                    <button 
+                    class="btn btn-color-1" 
+                    onclick="location.href= './
+                    #contact'"> 
+                    Contact Info
+                    </button>
+                </div>
+                
+                <div id="socials-container">
+                  <img 
+                   src="./Assets/linkedin.png" 
+                   alt="My linkedin Profile" 
+                   class="icon" 
+                   onclick="location.href='http://linkedin.com/https://www.linkedin.com/in/louis-jairo-paquin/'" 
+                  />
+
+                  <img 
+                   src="./assets/github.png" 
+                   alt="My Github Profile" 
+                   class="icon" 
+                   onclick="location.href='http://github.com/'" 
+                  />
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section_text_p1">Get To Know Me More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img 
+                    src="./Assets/about-pic.png" 
+                    alt="Profile picture" 
+                    class="about-pic" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img 
+                            src="./Assets/experience.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            /> 
+                            <h3>Experience</h3>
+                            <p>2+ Years <br /> Front End Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="./Assets/education.png" 
+                            alt="Education" 
+                            class="icon"
+                            /> 
+                            <h3>Education</h3>
+                            <p>Bachelors Degree in hospitality management <br /> Front End Engeer - CodeCademy</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat optio ipsam, iste deserunt numquam in minus a hic soluta architecto, similique atque officia. Commodi nihil sed quo unde sapiente necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <img 
+                src="./Assets/arrow.png" 
+                alt="arrow icon" 
+                class="icon arrow" 
+                onclick="location.href='./#experience'"
+                />
+        </section>
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">My experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Web Development</h2>
+                        <div class="article-container">
+                         <article>   
+                            <img 
+                             src="./Assets/checkmark.png" 
+                             alt="Experience icon " 
+                             class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Beginner</p>
+                            </div>
+                         </article>
+                         <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Beginner</p>
+                            </div>
+                         </article>
+                         <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Beginner</p>
+                            </div>
+                         </article>
+                         <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Github</h3>
+                                <p>Intermediate</p>
+                            </div>
+                         </article>
+                         <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Webflow</h3>
+                                <p>Advance</p>
+                            </div>
+                         </article>
+                         <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Shopify</h3>
+                                <p>Advance</p>
+                            </div>
+                         </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Product Management</h2>
+                        <div class="article-container">
+                        <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Jira/Confluence</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Scrum/Agile</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>UI/UX</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Confluence</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Product backlog</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>   
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience icon " 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Product Roadmap</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img 
+            src="./Assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow" 
+            onclick="location.href='./#experience'"
+            />
+        </section>
+        <section id="projects">
+            <p class="section_text_p1">Browse my recent </p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+             <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/project-1.png" 
+                        alt="Project-1" 
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='http://github.com/'">
+                        Github
+                        </button>
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='http://github.com/'">
+                        Live Site
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/project-2.png" 
+                        alt="project-2" 
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='http://github.com/'">
+                        Github
+                        </button>
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='http://github.com/'">
+                        Live Site
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/project-3.png" 
+                        alt="project-3" 
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='http://github.com/'">
+                        Github
+                        </button>
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='http://github.com/'">
+                        Live Site
+                        </button>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <img 
+                src="./Assets/arrow.png" 
+                alt="arrow icon" 
+                class="icon arrow" 
+                onclick="location.href='./#experience'"
+                />
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                    src="./Assets/email.png" 
+                    alt="Email Icon"
+                    class="icon contact-icon email-icon"
+                    />
+                    <p><a href="mailto:examplemail&gmail.com">Email Address</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./Assets/linkedin.png" 
+                    alt="Linkedin Icon"
+                    class="icon contact-icon"
+                    />
+                    <p><a href="https://www.linkedin.com/in/louis-jairo-paquin/">Linkedin</a></p>
+                </div>
+            </div>
+        </section>
+        <footer >
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Louis Paquin Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+ 
