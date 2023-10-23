@@ -158,6 +158,10 @@ section{
 
 /* PROFILE SECTION */
 
+img{
+    border-radius: 2rem;
+}
+
 #profile {
     display:flex;
     justify-content: center;
@@ -395,7 +399,7 @@ article .icon{
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin:1rem;
+    margin: 1rem;
 }
 
 .contact-info-container p {
